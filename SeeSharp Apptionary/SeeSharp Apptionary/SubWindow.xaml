@@ -5,22 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SeeSharp_Apptionary"
         mc:Ignorable="d"
-        Title="Subwindow" Height="300" Width="300">
-    <Grid Background="Red">
+        Title="Subwindow" Height="600" Width="800">
+    <StackPanel Background="Black">
         <StackPanel>
             <Grid Height="50" Background="Purple" VerticalAlignment="Top">
                 <Label Foreground="White" Content="SeeSharp Apptionary" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" ></Label>
             </Grid>
-            <StackPanel Orientation="Horizontal">
-                <Label x:Name="Title" Background="Black" Foreground="White" Height="50" Content="TITLE" FontWeight="Bold" FontSize="35" Margin="10" ></Label>
-                <TextBox x:Name="titleBox" Height="36" Width="250" Margin="10"></TextBox>
-            </StackPanel>
-            <Label Background="Black" Foreground="White" Height="50" Content="Definition" FontWeight="Bold" FontSize="25" Margin="10"/>
-            <ScrollViewer  VerticalScrollBarVisibility="Auto" Margin="10">
-                <TextBox BorderThickness="2" BorderBrush="White" Height="200" Background="Black" Foreground="White" FontSize="15" TextWrapping="Wrap"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Title : " FontSize="35" Foreground="White" Margin="10" FontWeight="Bold"/>
+            <TextBox x:Name="titleBox" Foreground="White" Background="Black" Width="350" Margin="10" BorderBrush="White" BorderThickness="2" FontSize="25"/>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="Definition : " FontSize="35" Foreground="White" Margin="10" FontWeight="Bold"/>
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <TextBox x:Name="definitionBox" Foreground="White" Background="Black" FontSize="20" Width="750" Height="280"  Margin="10" BorderBrush="White" BorderThickness="2" HorizontalAlignment="Left" />
             </ScrollViewer>
+            <StackPanel Orientation="Horizontal">
+                <Button Height="40" Width="120" Margin="10" Content="Add To References" HorizontalAlignment="Left"></Button>
+                <Label Foreground="Red" FontSize="40"></Label>
+            </StackPanel>
+           
         </StackPanel>
 
 
-    </Grid>
+
+    </StackPanel>
 </Window>
