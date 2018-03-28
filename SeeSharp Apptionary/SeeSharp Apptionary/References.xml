@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<References>
+  <Reference>
+    <Title>C#</Title>
+    <Definition>C# is a general-purpose, type-safe, object-oriented programming language. The goal of the language is programmer productivity. To this end, the language balances simplicity, expressiveness, and performance. The C# language is platformneutral, but it was written to work well with the Microsoft .NET Framework. C# 7.0 targets .NET Framework 4.6/4.7.</Definition>
+  </Reference>
+  <Reference>
+    <Title>Identifiers</Title>
+    <Definition>Identifiers are names that programmers choose for their classes, methods, variables, and so on. An identifier must be a whole word, essentially made up of Unicode characters starting with a letter or underscore. C# identifiers are case-sensitive. By convention, parameters, local variables, and private fields should be in camel case (e.g., myVariable), and all other identifiers should be in Pascal case (e.g., MyMethod).</Definition>
+  </Reference>
+  <Reference>
+    <Title>Keywords</Title>
+    <Definition>Keywords are names that mean something special to the compiler.
+
+Most keywords are reserved, which means that you can’t use them as identifiers. 
+
+</Definition>
+  </Reference>
+</References>
