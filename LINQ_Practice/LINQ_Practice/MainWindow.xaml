@@ -1,0 +1,23 @@
+﻿<Window x:Class="LINQ_Practice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LINQ_Practice"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="421,14,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="30,164,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+        <Button Content="Create XML" HorizontalAlignment="Left" Margin="421,292,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <TextBox x:Name="movieName" BorderThickness="2" BorderBrush="Black" HorizontalAlignment="Left" Height="28" Margin="30,14,0,0" TextWrapping="Wrap" Text="Movie Name" VerticalAlignment="Top" Width="162" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="movieGenre" BorderThickness="2" BorderBrush="Black" HorizontalAlignment="Left" Height="28" Margin="30,58,0,0" TextWrapping="Wrap" Text="Movie Genre" VerticalAlignment="Top" Width="162" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="movieRating" BorderThickness="2" BorderBrush="Black" HorizontalAlignment="Left" Height="28" Margin="30,109,0,0" TextWrapping="Wrap" Text="Movie Rating" VerticalAlignment="Top" Width="162" TextChanged="TextBox_TextChanged"/>
+        <GridSplitter HorizontalAlignment="Left" Height="217" Margin="234,10,0,0" VerticalAlignment="Top" Width="5" Background="Black"/>
+        <TextBox x:Name="searchBar" BorderThickness="2" BorderBrush="Black" HorizontalAlignment="Left" Height="28" Margin="254,14,0,0" TextWrapping="Wrap" Text="Movie Name" VerticalAlignment="Top" Width="162" TextChanged="TextBox_TextChanged"/>
+        <Label x:Name="nameLabel"  Content="" HorizontalAlignment="Left" Margin="254,68,0,0" VerticalAlignment="Top" Width="232"/>
+        <Label x:Name="genreLabel" Content="" HorizontalAlignment="Left" Margin="254,106,0,0" VerticalAlignment="Top" Width="232"/>
+        <Label x:Name="ratingLabel" Content="" HorizontalAlignment="Left" Margin="254,146,0,0" VerticalAlignment="Top" Width="232"/>
+
+    </Grid>
+</Window>

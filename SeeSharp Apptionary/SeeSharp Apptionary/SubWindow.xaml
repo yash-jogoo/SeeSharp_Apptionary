@@ -1,0 +1,26 @@
+﻿<Window x:Class="SeeSharp_Apptionary.Subwindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SeeSharp_Apptionary"
+        mc:Ignorable="d"
+        Title="Subwindow" Height="300" Width="300">
+    <Grid Background="Red">
+        <StackPanel>
+            <Grid Height="50" Background="Purple" VerticalAlignment="Top">
+                <Label Foreground="White" Content="SeeSharp Apptionary" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" ></Label>
+            </Grid>
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="Title" Background="Black" Foreground="White" Height="50" Content="TITLE" FontWeight="Bold" FontSize="35" Margin="10" ></Label>
+                <TextBox x:Name="titleBox" Height="36" Width="250" Margin="10"></TextBox>
+            </StackPanel>
+            <Label Background="Black" Foreground="White" Height="50" Content="Definition" FontWeight="Bold" FontSize="25" Margin="10"/>
+            <ScrollViewer  VerticalScrollBarVisibility="Auto" Margin="10">
+                <TextBox BorderThickness="2" BorderBrush="White" Height="200" Background="Black" Foreground="White" FontSize="15" TextWrapping="Wrap"></TextBox>
+            </ScrollViewer>
+        </StackPanel>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\bin\Debug\SeeSharp Apptionary.exe.config
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\bin\Debug\SeeSharp Apptionary.exe
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\bin\Debug\SeeSharp Apptionary.pdb
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SeeSharp Apptionary.csprojResolveAssemblyReference.cache
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\MainWindow.g.cs
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\App.g.cs
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SeeSharp Apptionary_MarkupCompile.cache
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SeeSharp Apptionary_MarkupCompile.lref
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\MainWindow.baml
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SeeSharp Apptionary.g.resources
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SeeSharp_Apptionary.Properties.Resources.resources
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SeeSharp Apptionary.csproj.GenerateResource.Cache
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SeeSharp Apptionary.csproj.CoreCompileInputs.cache
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SeeSharp Apptionary.exe
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SeeSharp Apptionary.pdb
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SubWindow.g.cs
+c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SubWindow.baml

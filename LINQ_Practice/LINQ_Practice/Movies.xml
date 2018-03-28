@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Movies>
+  <Movie>
+    <Name>The Dictator</Name>
+    <Genre>Comedy</Genre>
+    <Rating>9</Rating>
+  </Movie>
+  <Movie>
+    <Name>Jumanji</Name>
+    <Genre>Action</Genre>
+    <Rating>5</Rating>
+  </Movie>
+  <Movie>
+    <Name>21 Jumpstreet</Name>
+    <Genre>Comedy</Genre>
+    <Rating>9</Rating>
+  </Movie>
+  <Movie>
+    <Name>Batman</Name>
+    <Genre>Action</Genre>
+    <Rating>10</Rating>
+  </Movie>
+  <Movie>
+    <Name>Movie Name</Name>
+    <Genre>Movie Genre</Genre>
+    <Rating>Movie Rating</Rating>
+  </Movie>
+</Movies>

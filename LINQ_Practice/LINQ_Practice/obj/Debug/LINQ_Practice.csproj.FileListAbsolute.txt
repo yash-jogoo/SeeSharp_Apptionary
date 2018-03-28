@@ -1,0 +1,15 @@
+C:\Users\hurna\Documents\Visual Studio 2017\Projects\LINQ_Practice\LINQ_Practice\bin\Debug\LINQ_Practice.exe.config
+C:\Users\hurna\Documents\Visual Studio 2017\Projects\LINQ_Practice\LINQ_Practice\bin\Debug\LINQ_Practice.exe
+C:\Users\hurna\Documents\Visual Studio 2017\Projects\LINQ_Practice\LINQ_Practice\bin\Debug\LINQ_Practice.pdb
+C:\Users\hurna\Documents\Visual Studio 2017\Projects\LINQ_Practice\LINQ_Practice\obj\Debug\LINQ_Practice.csprojResolveAssemblyReference.cache
+C:\Users\hurna\Documents\Visual Studio 2017\Projects\LINQ_Practice\LINQ_Practice\obj\Debug\MainWindow.g.cs
+C:\Users\hurna\Documents\Visual Studio 2017\Projects\LINQ_Practice\LINQ_Practice\obj\Debug\App.g.cs
+C:\Users\hurna\Documents\Visual Studio 2017\Projects\LINQ_Practice\LINQ_Practice\obj\Debug\LINQ_Practice_MarkupCompile.cache
+C:\Users\hurna\Documents\Visual Studio 2017\Projects\LINQ_Practice\LINQ_Practice\obj\Debug\LINQ_Practice_MarkupCompile.lref
+C:\Users\hurna\Documents\Visual Studio 2017\Projects\LINQ_Practice\LINQ_Practice\obj\Debug\MainWindow.baml
+C:\Users\hurna\Documents\Visual Studio 2017\Projects\LINQ_Practice\LINQ_Practice\obj\Debug\LINQ_Practice.g.resources
+C:\Users\hurna\Documents\Visual Studio 2017\Projects\LINQ_Practice\LINQ_Practice\obj\Debug\LINQ_Practice.Properties.Resources.resources
+C:\Users\hurna\Documents\Visual Studio 2017\Projects\LINQ_Practice\LINQ_Practice\obj\Debug\LINQ_Practice.csproj.GenerateResource.Cache
+C:\Users\hurna\Documents\Visual Studio 2017\Projects\LINQ_Practice\LINQ_Practice\obj\Debug\LINQ_Practice.csproj.CoreCompileInputs.cache
+C:\Users\hurna\Documents\Visual Studio 2017\Projects\LINQ_Practice\LINQ_Practice\obj\Debug\LINQ_Practice.exe
+C:\Users\hurna\Documents\Visual Studio 2017\Projects\LINQ_Practice\LINQ_Practice\obj\Debug\LINQ_Practice.pdb
