@@ -19,10 +19,10 @@
         <StackPanel>
             <Label Content="Definition : " FontSize="35" Foreground="White" Margin="10" FontWeight="Bold"/>
             <ScrollViewer VerticalScrollBarVisibility="Auto">
-                <TextBox x:Name="definitionBox" Foreground="White" Background="Black" FontSize="20" Width="750" Height="280"  Margin="10" BorderBrush="White" BorderThickness="2" HorizontalAlignment="Left" />
+                <TextBox x:Name="definitionBox" Foreground="White" AcceptsReturn="True" Background="Black" FontSize="20" Width="750" Height="280"  Margin="10" TextWrapping="Wrap" BorderBrush="White" BorderThickness="2" HorizontalAlignment="Left" />
             </ScrollViewer>
             <StackPanel Orientation="Horizontal">
-                <Button Height="40" Width="120" Margin="10" Content="Add To References" HorizontalAlignment="Left"></Button>
+                <Button Height="40" Width="120" Margin="10" Content="Add To References" HorizontalAlignment="Left" Click="Button_Click"></Button>
                 <Label Foreground="Red" FontSize="40"></Label>
             </StackPanel>
            

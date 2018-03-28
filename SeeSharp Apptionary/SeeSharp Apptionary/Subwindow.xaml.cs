@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Xml.Linq;
 
 namespace SeeSharp_Apptionary
 {
@@ -22,6 +23,30 @@ namespace SeeSharp_Apptionary
         public Subwindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                XDocument xmlDocument = XDocument.Load(@"C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\References.xml");
+                xmlDocument.Element("References").Add(
+                new XElement("Reference",
+                        new XElement("Title", titleBox.Text),
+                        new XElement("Definition", definitionBox.Text)
+                    )
+                );
+
+                xmlDocument.Save(@"C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\References.xml");
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Cannot access application's database");
+                Close();
+                throw;
+            }
+            
+            
         }
     }
 }
