@@ -29,7 +29,7 @@ namespace SeeSharp_Apptionary
         {
             try
             {
-                XDocument xmlDocument = XDocument.Load(@"C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\References.xml");
+                XDocument xmlDocument = XDocument.Load(@"C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\References.xml");
                 xmlDocument.Element("References").Add(
                 new XElement("Reference",
                         new XElement("Title", titleBox.Text),
@@ -37,7 +37,9 @@ namespace SeeSharp_Apptionary
                     )
                 );
 
-                xmlDocument.Save(@"C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\References.xml");
+                xmlDocument.Save(@"C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\References.xml");
+                MessageBox.Show("Reference Added");
+                Close();
             }
             catch (Exception)
             {
