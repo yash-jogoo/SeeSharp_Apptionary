@@ -1,0 +1,17 @@
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\bin\Release\SeeSharp Apptionary.exe.config
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\bin\Release\SeeSharp Apptionary.exe
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\bin\Release\SeeSharp Apptionary.pdb
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\MainWindow.g.cs
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SubWindow.g.cs
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\App.g.cs
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary_MarkupCompile.cache
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary_MarkupCompile.lref
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\MainWindow.baml
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SubWindow.baml
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary.g.resources
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp_Apptionary.Properties.Resources.resources
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary.csproj.GenerateResource.Cache
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary.csproj.CoreCompileInputs.cache
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary.exe
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary.pdb
+C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary.csprojResolveAssemblyReference.cache

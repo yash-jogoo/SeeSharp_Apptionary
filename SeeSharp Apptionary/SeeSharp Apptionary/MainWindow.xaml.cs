@@ -19,11 +19,20 @@ namespace SeeSharp_Apptionary
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+
+    
     public partial class MainWindow : Window
     {
+
+        private System.Windows.Forms.NotifyIcon MyNotifyIcon;
+
         public MainWindow()
         {
             InitializeComponent();
+
+            MyNotifyIcon = new System.Windows.Forms.NotifyIcon();
+            MyNotifyIcon.Icon = new System.Drawing.Icon(@"..\..\cs.ico");
+            MyNotifyIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(MyNotifyIcon_MouseDoubleClick);
         }
 
 
@@ -60,6 +69,30 @@ namespace SeeSharp_Apptionary
         {
             Subwindow subwindow = new Subwindow();
             subwindow.Show();
+        }
+
+        void MyNotifyIcon_MouseDoubleClick(object sender, System.Windows.Forms.MouseEventArgs e)
+        {
+            this.WindowState = WindowState.Normal;
+        }
+
+        private void Window_StateChanged(object sender, EventArgs e)
+        {
+            if (this.WindowState == WindowState.Minimized)
+            {
+                this.ShowInTaskbar = false;
+                MyNotifyIcon.BalloonTipTitle = "Minimize Successfull";
+                MyNotifyIcon.BalloonTipText = "Minized the app";
+                MyNotifyIcon.ShowBalloonTip(400);
+                MyNotifyIcon.Visible = true;
+
+
+            }
+            else if (this.WindowState == WindowState.Normal)
+            {
+                MyNotifyIcon.Visible = false;
+                this.ShowInTaskbar = true;
+            }
         }
 
 
