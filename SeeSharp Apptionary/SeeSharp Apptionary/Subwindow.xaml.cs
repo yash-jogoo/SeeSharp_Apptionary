@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,24 +21,40 @@ namespace SeeSharp_Apptionary
     /// </summary>
     public partial class Subwindow : Window
     {
-        public Subwindow()
+        public Subwindow(string text)
         {
             InitializeComponent();
+            titleBox.Text = text;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                XDocument xmlDocument = XDocument.Load(@"C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\References.xml");
+                string[] array = seeAlsoBox.Text.Split(',');
+                string[] linkArray = referencesBox.Text.Split(','); 
+                XDocument xmlDocument = XDocument.Load(@"../../References.xml");
                 xmlDocument.Element("References").Add(
                 new XElement("Reference",
                         new XElement("Title", titleBox.Text),
-                        new XElement("Definition", definitionBox.Text)
-                    )
+                        new XElement("Definition", definitionBox.Text),
+                        new XElement("ImagePath",imageCode.Source),
+                        new XElement("SeeAlsos",
+                                     from item in array
+                                     select new XElement("SeeAlso", item)
+                                    ),
+                        new XElement("ReferenceLinks",
+                                     from item in linkArray
+                                     select new XElement("ReferenceLink", item)
+                                    )
+                            )
+                        
+                            
                 );
 
-                xmlDocument.Save(@"C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\References.xml");
+                
+
+                xmlDocument.Save(@"../../References.xml");
                 MessageBox.Show("Reference Added");
                 Close();
             }
@@ -49,6 +66,19 @@ namespace SeeSharp_Apptionary
             }
             
             
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog op = new OpenFileDialog();
+            op.Title = "Select a picture";
+            op.Filter = "All supported graphics|*.jpg;*.jpeg;*.png|" +
+              "JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|" +
+              "Portable Network Graphic (*.png)|*.png";
+            if (op.ShowDialog() == true)
+            {
+                imageCode.Source = new BitmapImage(new Uri(op.FileName));
+            }
         }
     }
 }

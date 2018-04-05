@@ -1,0 +1,19 @@
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\bin\Release\SeeSharp Apptionary.exe.config
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\bin\Release\SeeSharp Apptionary.exe
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\bin\Release\SeeSharp Apptionary.pdb
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\MainWindow.g.cs
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SettingsWindow.g.cs
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SubWindow.g.cs
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\App.g.cs
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary_MarkupCompile.cache
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary_MarkupCompile.lref
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\MainWindow.baml
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SettingsWindow.baml
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SubWindow.baml
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary.g.resources
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp_Apptionary.Properties.Resources.resources
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary.csproj.GenerateResource.Cache
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary.csproj.CoreCompileInputs.cache
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary.exe
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary.pdb
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Release\SeeSharp Apptionary.csprojResolveAssemblyReference.cache

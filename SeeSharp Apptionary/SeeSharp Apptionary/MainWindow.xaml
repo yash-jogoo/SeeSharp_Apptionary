@@ -5,22 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SeeSharp_Apptionary"
         mc:Ignorable="d"
-        Title="MainWindow" Height="508.465" Width="800">
+        Title="MainWindow" Height="819.225" Width="800">
     <Grid Background="Black">
         <StackPanel>
             <Grid Height="50" Background="Purple" VerticalAlignment="Top">
                 <Label Foreground="White" Content="SeeSharp Apptionary" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" ></Label>
             </Grid>
             <StackPanel Orientation="Horizontal">
-                <TextBox x:Name="searchBar" Height="25" Width="250" Margin="10"></TextBox>
+                <TextBox x:Name="searchBar" Height="25" Width="250" Margin="10" KeyDown="searchBar_KeyDown"></TextBox>
                 <Button x:Name="Button1" Height="25" Width="75" Content="Search" Click="Button1_Click"></Button>
                 <Button Content="New Entry" Height="25" Width="75" Margin="10" Click="Button_Click"/>
+                <Button Content="New Entry" Height="25" Width="75" Margin="10" Click="Button_Click_1"/>
             </StackPanel>
 
             <Label x:Name="Title" Background="Black" Foreground="White" Height="50" Content="" FontWeight="Bold" FontSize="35" Margin="10" ></Label>
             <Label x:Name="definitionLabel" Background="Black" Foreground="White" Height="50" Content="" FontWeight="Bold" FontSize="25" Margin="10"/>
-            <ScrollViewer  VerticalScrollBarVisibility="Visible" Margin="10">
-                <TextBlock x:Name="DefinitionBlock" Height="200" Background="Black" Foreground="White" FontSize="15" TextWrapping="Wrap"></TextBlock>
+            <ScrollViewer  VerticalScrollBarVisibility="Auto" Height="150" Margin="10">
+                <TextBlock x:Name="DefinitionBlock"  Background="Black" Foreground="White" FontSize="15" TextWrapping="Wrap"></TextBlock>
+            </ScrollViewer>
+            <Label x:Name="imageLabel" Background="Black" Foreground="White" Height="50" Content="" FontWeight="Bold" FontSize="25" Margin="10"/>
+            <ScrollViewer x:Name="imageContainer" VerticalScrollBarVisibility="Auto" Height="200" Margin="10">
+                <Image x:Name="imageCode" ></Image>
             </ScrollViewer>
         </StackPanel>
 

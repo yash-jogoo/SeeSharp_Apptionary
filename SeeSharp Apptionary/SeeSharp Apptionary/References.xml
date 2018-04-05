@@ -2,19 +2,69 @@
 <References>
   <Reference>
     <Title>C#</Title>
-    <Definition>C# is a general-purpose, type-safe, object-oriented programming language. The goal of the language is programmer productivity. To this end, the language balances simplicity, expressiveness, and performance. The C# language is platformneutral, but it was written to work well with the Microsoft .NET Framework. C# 7.0 targets .NET Framework 4.6/4.7.</Definition>
+    <ImagePath>C#.png</ImagePath>
+    <Definition>C!is a general-purpose, type-safe, object-oriented programming language. The goal of the language is programmer productivity. To this end, the language balances simplicity, expressiveness, and performance. The C# language is platformneutral, but it was written to work well with the Microsoft .NET Framework. C# 7.0 targets .NET Framework 4.6/4.7.</Definition>
   </Reference>
   <Reference>
     <Title>Identifiers</Title>
+    <ImagePath>C#.png</ImagePath>
     <Definition>Identifiers are names that programmers choose for their classes, methods, variables, and so on. An identifier must be a whole word, essentially made up of Unicode characters starting with a letter or underscore. C# identifiers are case-sensitive. By convention, parameters, local variables, and private fields should be in camel case (e.g., myVariable), and all other identifiers should be in Pascal case (e.g., MyMethod).</Definition>
   </Reference>
   <Reference>
     <Title>Keywords</Title>
+    <ImagePath>C#.png</ImagePath>
     <Definition>Keywords are names that mean something special to the compiler.
 
 Most keywords are reserved, which means that you can’t use them as identifiers. 
 
 </Definition>
   </Reference>
-
+  <Reference>
+    <Title>l kadnv;aldxca</Title>
+    <ImagePath>C#.png</ImagePath>
+    <Definition>cascascasx</Definition>
+  </Reference>
+  <Reference>
+    <Title>egg</Title>
+    <Definition>evraefv frt rgb</Definition>
+    <ImagePath>file:///C:/Users/hurna/Documents/GitHub/SeeSharp_Apptionary/SeeSharp Apptionary/SeeSharp Apptionary/bin/Debug/C#.png</ImagePath>
+  </Reference>
+  <Reference>
+    <Title>kelemrvpoafrbve</Title>
+    <Definition>eornvpalerv</Definition>
+    <ImagePath>file:///C:/Users/hurna/Documents/GitHub/SeeSharp_Apptionary/SeeSharp Apptionary/SeeSharp Apptionary/bin/Debug/C#.png</ImagePath>
+    <SeeAlsos>
+      <SeeAlso>a</SeeAlso>
+      <SeeAlso>dummy6</SeeAlso>
+      <SeeAlso>c</SeeAlso>
+      <SeeAlso>v</SeeAlso>
+    </SeeAlsos>
+  </Reference>
+  <Reference>
+    <Title>dummy6</Title>
+    <Definition>eornvpalerv</Definition>
+    <ImagePath>file:///C#.PNG</ImagePath>
+    <SeeAlsos>
+      <SeeAlso>a</SeeAlso>
+      <SeeAlso>egg</SeeAlso>
+      <SeeAlso>c</SeeAlso>
+      <SeeAlso>v</SeeAlso>
+    </SeeAlsos>
+  </Reference>
+  <Reference>
+    <Title>Dem</Title>
+    <Definition>ksldvm;aev rpovmer bvpeormb eropmbplae fberfbretfbrftbr</Definition>
+    <ImagePath>file:///../../assets/C#.png</ImagePath>
+    <SeeAlsos>
+      <SeeAlso>dummy6</SeeAlso>
+      <SeeAlso>egg</SeeAlso>
+      <SeeAlso>yoyo</SeeAlso>
+    </SeeAlsos>
+    <ReferenceLinks>
+      <ReferenceLink>https://web.whatsapp.com/</ReferenceLink>
+      <ReferenceLink>egg</ReferenceLink>
+      <ReferenceLink>yoyo</ReferenceLink>
+    </ReferenceLinks>
+  </Reference>
+  
 </References>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\
 SeeSharp_Apptionary
 none
 false
 DEBUG;TRACE
-c:\users\hurna\documents\visual studio 2017\Projects\SeeSharp Apptionary\SeeSharp Apptionary\App.xaml
-2-1904100679
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\App.xaml
+3220207327
 
-10-1284842248
+131334079457
 131569487696
-MainWindow.xaml;Subwindow.xaml;
+MainWindow.xaml;SettingsWindow.xaml;SubWindow.xaml;
 
-False
+True
 

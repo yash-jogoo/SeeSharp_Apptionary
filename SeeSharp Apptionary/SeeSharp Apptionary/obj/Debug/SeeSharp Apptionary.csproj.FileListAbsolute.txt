@@ -49,3 +49,5 @@ C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp 
 C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SeeSharp Apptionary.csproj.CoreCompileInputs.cache
 C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SeeSharp Apptionary.exe
 C:\Users\Yash\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SeeSharp Apptionary.pdb
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SettingsWindow.g.cs
+C:\Users\hurna\Documents\GitHub\SeeSharp_Apptionary\SeeSharp Apptionary\SeeSharp Apptionary\obj\Debug\SettingsWindow.baml
